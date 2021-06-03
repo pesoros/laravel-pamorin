@@ -24,6 +24,7 @@ Auth::routes();
 // linktree-clone.com/dashboard
 Route::group(['middleware' => 'auth', 'prefix' => 'dashboard'], function () {
 
+    Route::get('/', 'HomeController@index')->name('home');
     Route::get('/links', 'LinkController@index');
     Route::get('/links/new', 'LinkController@create');
     Route::post('links/new', 'LinkController@store');

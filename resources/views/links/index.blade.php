@@ -5,6 +5,17 @@
     <div class="row">
         <div class="col-12 card">
             <div class="card-body">
+                <h2 class="card-title">Avatar</h2>
+                <a href="/dashboard/links/new" class="btn btn-primary">Add Link</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-12 card">
+            <div class="card-body">
                 <h2 class="card-title">Your Links</h2>
                 <table class="table table-stripped">
                     <thead>
